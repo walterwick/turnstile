@@ -44,7 +44,7 @@ async function verifyTurnstile(token) {
     }
     return data.success;
   } catch (error) {
-    console.error('Turnstile verification error:', error);
+    console.error('Turnstile verification errorr:', error);
     return false;
   }
 }
